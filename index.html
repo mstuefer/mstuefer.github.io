@@ -19,7 +19,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body>
+<body vocab="http://schema.org/" typeof="Person">
 <section id="home" class="fill">
   <div class="home-background parallax-section">
     <div class="container-fluid">
@@ -31,10 +31,10 @@
           </div>
           <div class="social">
             <ul>
-              <li><a href="https://www.linkedin.com/in/mstuefer/"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/mstuefer/"><i class="fa fa-github"></i></a></li>
-              <li><a href="https://www.facebook.com/stuefer.manuel/"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://plus.google.com/u/0/+ManuelStuefer/"><i class="fa fa-google-plus"></i></a></li>
+              <li><a property="sameAs" href="https://www.linkedin.com/in/mstuefer/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a property="sameAs" href="https://github.com/mstuefer/"><i class="fa fa-github"></i></a></li>
+              <li><a property="sameAs" href="https://www.facebook.com/stuefer.manuel/"><i class="fa fa-facebook"></i></a></li>
+              <li><a property="sameAs" href="https://plus.google.com/u/0/+ManuelStuefer/"><i class="fa fa-google-plus"></i></a></li>
             </ul>
           </div>
         </div>
@@ -47,7 +47,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-left col-xs-6">
-          <address vocab="http://schema.org/" typeof="Person">
+          <address>
             <span property="name">Stuefer Manuel</span> -
             <span property="alternateName">mstuefer</span><br>
             <span property="jobTitle">Software Engineer</span><br>
@@ -55,7 +55,7 @@
             <a href="mailto:mstuefer@gmail.com" property="email">
               mstuefer@gmail.com
             </a><br>
-            <a href="http://mstuefer.github.io/" property="url">
+            <a property="sameAs" href="http://mstuefer.github.io/" property="url">
               mstuefer.github.io
             </a><br>
           </address>
